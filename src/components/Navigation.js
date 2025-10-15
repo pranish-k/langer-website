@@ -4,30 +4,35 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
     <nav className="navigation">
       <a
+        href="#professor"
         onClick={() => setCurrentPage("professor")}
         className={currentPage === "professor" ? "active" : ""}
       >
         PROFESSOR
       </a>
       <a
+        href="#author"
         onClick={() => setCurrentPage("author")}
         className={currentPage === "author" ? "active" : ""}
       >
         AUTHOR
       </a>
       <a
+        href="#speaker"
         onClick={() => setCurrentPage("speaker")}
         className={currentPage === "speaker" ? "active" : ""}
       >
         SPEAKER
       </a>
       <a
+        href="#consultant"
         onClick={() => setCurrentPage("consultant")}
         className={currentPage === "consultant" ? "active" : ""}
       >
         CONSULTANT
       </a>
       <a
+        href="#social-entrepreneur"
         onClick={() => setCurrentPage("social-entrepreneur")}
         className={currentPage === "social-entrepreneur" ? "active" : ""}
       >
