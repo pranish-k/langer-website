@@ -49,17 +49,14 @@ const ProfessorPage = () => {
         />
         <h3>Adjunct Full Professor at Teachers College</h3>
         <p>
-          He is Professor of Professional Practice, Director of the Center for
-          Technology Management, and Academic Director of the M.S. in Technology
-          Management programs at Columbia University. He also serves on the
-          faculty of the Department of Organization and Leadership at the
-          Graduate School of Education (Teachers College).
+          Dr. Langer servers on faculty of the Department of Organization and
+          Leadership at the Graduate School of Education (Teachers College).
         </p>
         <p>
-          Dr. Langer's research and instructional interests include: mentoring
-          of nontraditional students; adult education, workplace learning,
-          distance education, technology and education, and curricular design.
-          The courses he developed include: IT and Organizational Learning; How
+          Dr. Langer's research and instructional interests include mentoring of
+          nontraditional students; adult education, workplace learning, distance
+          education, technology and education, and curricular design. The
+          courses he developed include: IT and Organizational Learning; How
           Adults Learn; Purpose and Policies of Higher Education; College &
           University Leadership; and Technology & Higher Education.
         </p>
