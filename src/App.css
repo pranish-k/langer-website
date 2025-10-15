@@ -5,9 +5,11 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
   color: #333;
-  line-height: 1.6;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .app {
@@ -94,7 +96,7 @@ body {
   background-color: white;
   padding: 50px 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   overflow: hidden;
 }
 
@@ -389,21 +391,36 @@ body {
 
 .section {
   background-color: white;
-  padding: 30px;
+  padding: 35px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .section h2 {
   color: #5A87B4;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.section h3 {
+  color: #5A87B4;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 18px 0 10px 0;
 }
 
 .section img {
   margin: 20px 0;
   max-width: 100%;
   height: auto;
+  border-radius: 6px;
+}
+
+.section p {
+  line-height: 1.7;
+  margin-bottom: 14px;
 }
 
 .university-section {
@@ -411,25 +428,29 @@ body {
 }
 
 .university-section h3 {
-  color: #2c5aa0;
+  color: #5A87B4;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   margin-top: 0;
+  letter-spacing: -0.2px;
 }
 
 .university-section p {
   margin: 0 0 10px 0;
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 .professor-quote {
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #e0e0e0;
+  margin-top: 24px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #5A87B4;
+  border-radius: 6px;
   font-style: italic;
   color: #555;
+  line-height: 1.7;
 }
 
 .book-covers {
@@ -477,15 +498,24 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   background-color: white;
-  padding: 30px;
+  padding: 35px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .contact-info h3,
 .publications h3 {
   color: #5A87B4;
-  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  letter-spacing: -0.3px;
+}
+
+.contact-info p,
+.publications p {
+  line-height: 1.65;
+  margin-bottom: 10px;
 }
 
 .publication-covers {
@@ -512,14 +542,30 @@ body {
 .page-content h1 {
   color: #5A87B4;
   font-size: 36px;
+  font-weight: 600;
   margin-bottom: 40px;
   text-align: center;
+  letter-spacing: -0.5px;
 }
 
 .page-content h2 {
   color: #5A87B4;
   font-size: 24px;
-  margin: 30px 0 20px 0;
+  font-weight: 600;
+  margin: 35px 0 20px 0;
+  letter-spacing: -0.3px;
+}
+
+.page-content h3 {
+  color: #5A87B4;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 25px 0 12px 0;
+}
+
+.page-content p {
+  margin-bottom: 16px;
+  line-height: 1.7;
 }
 
 .institution-section {
@@ -532,29 +578,36 @@ body {
   width: 300px;
   height: 200px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Author Page Styles */
 
 .book-item {
-  margin-bottom: 30px;
-  padding: 20px;
+  margin-bottom: 32px;
+  padding: 22px;
   background-color: #f9f9f9;
-  border-radius: 4px;
+  border-radius: 6px;
+  line-height: 1.65;
 }
 
 .book-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 24px;
   margin: 20px 0;
 }
 
 .book-grid > div {
-  padding: 15px;
+  padding: 18px;
   background-color: #f9f9f9;
-  border-radius: 4px;
+  border-radius: 6px;
+  line-height: 1.65;
+}
+
+.book-grid p {
+  margin-bottom: 8px;
 }
 
 .article-list {
@@ -563,10 +616,12 @@ body {
 }
 
 .article-list li {
-  margin-bottom: 15px;
-  padding: 15px;
+  margin-bottom: 16px;
+  padding: 16px 18px;
   background-color: #f9f9f9;
   border-left: 3px solid #5A87B4;
+  border-radius: 4px;
+  line-height: 1.65;
 }
 
 /* Speaker Page Styles */
@@ -576,9 +631,10 @@ body {
 }
 
 .presentation-list li {
-  margin-bottom: 15px;
-  padding: 10px 0;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 1.65;
 }
 
 /* Consultant Page Styles */
@@ -592,7 +648,8 @@ body {
   width: 350px;
   height: 250px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .about-text {
@@ -608,9 +665,24 @@ body {
 
 .company-profile,
 .corporate-info {
-  padding: 20px;
+  padding: 22px;
   background-color: #f9f9f9;
-  border-radius: 4px;
+  border-radius: 6px;
+}
+
+.company-profile h3,
+.corporate-info h3 {
+  color: #5A87B4;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: -0.2px;
+}
+
+.company-profile p,
+.corporate-info p {
+  line-height: 1.65;
+  margin-bottom: 10px;
 }
 
 .contact-grid {
@@ -635,6 +707,7 @@ body {
 .wos-link a {
   color: #5A87B4;
   font-size: 18px;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -752,9 +825,11 @@ a {
   color: #5A87B4;
   text-decoration: none;
   cursor: pointer;
+  transition: color 0.2s ease;
 }
 
 a:hover {
+  color: #4A77A4;
   text-decoration: underline;
 }
 
@@ -765,7 +840,8 @@ ul {
 }
 
 ul li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  line-height: 1.65;
 }
 
 /* Clear floats */

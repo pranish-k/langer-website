@@ -40,7 +40,6 @@ const AuthorPage = () => {
               </strong>
             </p>
             <p>Managing Behavioral Change in the Digital Age - 4th Edition</p>
-            <p>By Arthur M. Langer</p>
             <p>© 2024</p>
           </div>
 
@@ -58,7 +57,6 @@ const AuthorPage = () => {
               </strong>
             </p>
             <p>5G, IoT, Blockchain, and Quantum Computing - 1st edition</p>
-            <p>By Arthur M. Langer</p>
             <p>© 2020</p>
           </div>
 

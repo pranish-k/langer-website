@@ -19,9 +19,10 @@ const ProfessorPage = () => {
           />
         </a>
         <h3>
-          Associate Vice Provost; Director, Center for Technology Management and
-          Digital Leadership; Professor of Practice, Entrepreneurship &
-          Innovation
+          Associate Vice Provost <br></br>
+          Director, Center for Technology Management and Digital Leadership{" "}
+          <br></br>
+          Professor of Practice, Entrepreneurship & Innovation
         </h3>
         <p>
           The Center for Technology Management and Digital Leadership at
