@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "../Carousel";
 
-const HomePage = () => {
+const HomePage = ({ setCurrentPage }) => {
   return (
     <div className="home-page">
       <Carousel />
@@ -9,10 +9,14 @@ const HomePage = () => {
       <div className="home-sections">
         <div className="section-row">
           <div className="section professor-section">
-            <h2>PROFESSOR</h2>
+            <h2>
+              <a href="#professor" onClick={() => setCurrentPage("professor")}>
+                PROFESSOR
+              </a>
+            </h2>
             <img src="/teacher.jpeg" alt="Dr. Arthur Langer Teaching" />
             <div className="university-section">
-              <h3>Northeastern University</h3>
+              <h3>NORTHEASTERN UNIVERSITY</h3>
               <p>
                 Associate Vice Provost; Director, Center for Technology
                 Management and Digital Leadership; Professor of Practice,
@@ -21,7 +25,10 @@ const HomePage = () => {
             </div>
             <div className="university-section">
               <h3>COLUMBIA UNIVERSITY</h3>
-              <p>Adjunct Full Professor at Teacher's College</p>
+              <p>
+                Honorary Professor of Practice in the Department of Organization
+                and Leadership, Teachers College
+              </p>
             </div>
             <p className="professor-quote">
               "I believe that we have the responsibility to prepare the upcoming
@@ -32,7 +39,11 @@ const HomePage = () => {
           </div>
 
           <div className="section author-section">
-            <h2>AUTHOR</h2>
+            <h2>
+              <a href="#author" onClick={() => setCurrentPage("author")}>
+                AUTHOR
+              </a>
+            </h2>
             <div className="book-covers-grid">
               <a
                 href="https://link.springer.com/book/10.1007/978-3-031-76212-3"
@@ -86,7 +97,11 @@ const HomePage = () => {
 
         <div className="section-row">
           <div className="section speaker-section">
-            <h2>SPEAKER</h2>
+            <h2>
+              <a href="#speaker" onClick={() => setCurrentPage("speaker")}>
+                SPEAKER
+              </a>
+            </h2>
             <img src="/art_speaker.jpg" alt="Dr. Arthur Langer Speaking" />
             <p>
               Dr. Langer is a recognized speaker and authority on the topics
@@ -102,7 +117,14 @@ const HomePage = () => {
           </div>
 
           <div className="section social-section">
-            <h2>SOCIAL ENTREPRENEUR</h2>
+            <h2>
+              <a
+                href="#social-entrepreneur"
+                onClick={() => setCurrentPage("social-entrepreneur")}
+              >
+                SOCIAL ENTREPRENEUR
+              </a>
+            </h2>
             <h3>Workforce Opportunity Services (WOS)</h3>
             <img src="/WOS_art.jpg" alt="Dr. Arthur Langer at WOS Event" />
             <p>
@@ -135,14 +157,13 @@ const HomePage = () => {
         <div className="contact-info">
           <h3>Contact Information</h3>
           <p>Arthur Langer, Ed. D.</p>
-          <p>Email: al261@columbia.edu</p>
-          <p>Phone (O): 212-854-5218</p>
+          <p>
+            Email: <a href="mailto:al261@columbia.edu">al261@columbia.edu</a>
+          </p>
           <p>Phone (M): 914-261-6142</p>
           <br></br>
           <p>
-            <a href="https://www.linkedin.com/in/arthur-langer">
-              LinkedIn Profile
-            </a>
+            <a href="https://www.linkedin.com/in/arthur-langer">LinkedIn</a>
           </p>
         </div>
 

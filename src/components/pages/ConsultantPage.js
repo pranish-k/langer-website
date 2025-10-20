@@ -70,21 +70,16 @@ const ConsultantPage = () => {
 
       <div className="contact-section">
         <h2>CONTACT INFORMATION</h2>
-        <div className="contact-grid">
-          <div>
-            <strong>Email:</strong> al261@columbia.edu
-          </div>
-          <div>
-            <strong>Phone (O):</strong> 212-854-5218
-          </div>
-          <div>
+        <div className="contact-info-single">
+          <p>
+            <strong>Email:</strong> <a href="mailto:al261@columbia.edu">al261@columbia.edu</a>
+          </p>
+          <p>
             <strong>Phone (M):</strong> 914-261-6142
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/in/arthur-langer">
-              LinkedIn Profile
-            </a>
-          </div>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/arthur-langer">LinkedIn</a>
+          </p>
         </div>
       </div>
     </div>

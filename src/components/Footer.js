@@ -4,6 +4,7 @@ const Footer = ({ setCurrentPage }) => {
   return (
     <footer className="footer">
       <div className="footer-links">
+        <a href="#home" onClick={() => setCurrentPage("home")}>Home</a>
         <a href="#professor" onClick={() => setCurrentPage("professor")}>Professor</a>
         <a href="#author" onClick={() => setCurrentPage("author")}>Author</a>
         <a href="#speaker" onClick={() => setCurrentPage("speaker")}>Speaker</a>

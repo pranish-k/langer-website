@@ -4,6 +4,13 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
     <nav className="navigation">
       <a
+        href="#home"
+        onClick={() => setCurrentPage("home")}
+        className={currentPage === "home" ? "active" : ""}
+      >
+        HOME
+      </a>
+      <a
         href="#professor"
         onClick={() => setCurrentPage("professor")}
         className={currentPage === "professor" ? "active" : ""}

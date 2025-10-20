@@ -22,7 +22,7 @@ const ProfessorPage = () => {
           Associate Vice Provost <br></br>
           Director, Center for Technology Management and Digital Leadership{" "}
           <br></br>
-          Professor of Practice, Entrepreneurship & Innovation
+          Professor of Practice, D’Amore-McKim School of Business
         </h3>
         <p>
           The Center for Technology Management and Digital Leadership at
@@ -47,7 +47,10 @@ const ProfessorPage = () => {
           alt="Columbia University Teachers College"
           className="institution-image"
         />
-        <h3>Adjunct Full Professor at Teachers College</h3>
+        <h3>
+          Honorary Professor of Practice in the Department of Organization and
+          Leadership, Teachers College
+        </h3>
         <p>
           Dr. Langer servers on faculty of the Department of Organization and
           Leadership at the Graduate School of Education (Teachers College).
@@ -57,8 +60,8 @@ const ProfessorPage = () => {
           nontraditional students; adult education, workplace learning, distance
           education, technology and education, and curricular design. The
           courses he developed include: IT and Organizational Learning; How
-          Adults Learn; Purpose and Policies of Higher Education; College &
-          University Leadership; and Technology & Higher Education.
+          Adults Learn; College & University Leadership; and Technology & Higher
+          Education.
         </p>
       </div>
     </div>

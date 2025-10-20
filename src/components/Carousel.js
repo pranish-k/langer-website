@@ -7,26 +7,6 @@ const Carousel = () => {
   const slides = [
     {
       id: 1,
-      type: "video",
-      content: (
-        <div className="carousel-slide video-slide">
-          <div className="video-container">
-            <iframe
-              width="100%"
-              height="450"
-              src="https://www.youtube.com/embed/MmfLCmaCWhU"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-          <p className="slide-caption">Featured Video Presentation</p>
-        </div>
-      ),
-    },
-    {
-      id: 2,
       type: "book",
       content: (
         <div className="carousel-slide book-slide">
@@ -56,11 +36,13 @@ const Carousel = () => {
       ),
     },
     {
-      id: 3,
+      id: 2,
       type: "event",
       content: (
         <div className="carousel-slide event-slide">
-          <h2 style={{ color: "#5A87B4", marginBottom: "20px", fontSize: "36px" }}>
+          <h2
+            style={{ color: "#5A87B4", marginBottom: "20px", fontSize: "36px" }}
+          >
             Join Art at Nutanix Masterclass
           </h2>
           <a
@@ -75,6 +57,46 @@ const Carousel = () => {
               className="nutanix-image"
             />
           </a>
+        </div>
+      ),
+    },
+    {
+      id: 3,
+      type: "video",
+      content: (
+        <div className="carousel-slide video-slide">
+          <div className="video-container">
+            <iframe
+              width="100%"
+              height="450"
+              src="https://www.youtube.com/embed/NXX91lr_xRA"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <p className="slide-caption">Featured Video Presentation</p>
+        </div>
+      ),
+    },
+    {
+      id: 4,
+      type: "video",
+      content: (
+        <div className="carousel-slide video-slide">
+          <div className="video-container">
+            <iframe
+              width="100%"
+              height="450"
+              src="https://www.youtube.com/embed/2DwJFY34_yY"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <p className="slide-caption">Featured Video Presentation</p>
         </div>
       ),
     },

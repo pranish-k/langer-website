@@ -49,7 +49,7 @@ const PrivacyPolicyPage = () => {
         practices, please contact us at:
       </p>
       <p>
-        Email: al261@columbia.edu
+        Email: <a href="mailto:al261@columbia.edu">al261@columbia.edu</a>
         <br />
         Phone: 212-854-5218
       </p>
