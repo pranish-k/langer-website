@@ -112,6 +112,7 @@ This project was built with React and follows best practices for component organ
 ## Browser Support
 
 This website supports all modern browsers including:
+
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
@@ -119,7 +120,7 @@ This website supports all modern browsers including:
 
 ## License
 
-Copyright © 2024 Dr. Arthur M. Langer. All rights reserved.
+Copyright © 2025 Dr. Arthur M. Langer. All rights reserved.
 
 ## Contact
 
